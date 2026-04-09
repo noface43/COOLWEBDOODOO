@@ -1,131 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radium</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
 
-body {
-    background-image: url('AA1ZQl4S.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
+<div id="Bottom1">
+    <p style="font-family: Arial, Helvetica, sans-serif; margin-top: 380px; position: absolute; margin-left: 1100px; color: rgb(134, 255, 154) ; text-shadow: 0px 0px 15px rgb(134, 255, 154); font-size: 50px;"> Radium is a 2021 server with <br> weeklys, mods, dev items for everyone, and items that arent in <br> rec room before the shut down</p>
+    <h1 style="font-family: Arial, Helvetica, sans-serif; margin-top: 100px; position: absolute; margin-left: 1100px; color: rgb(89, 255, 70) ; text-shadow: 0px 0px 15px rgb(89, 255, 70); font-size: 110px;"> Welcome to Radium</h1>
+    <img id="BPhoto" src="Rec-Room-screenshot2.jpg" >
+</div>
+    <div id="Bottom2">
+    </div>
+    <div id="Bottomtop2">
+        
+    </div>
+    <div id="back">     <div id="main">
+        <img id="RMLOGO" src="Radeon_8x.png">
+        <h1 style="text-shadow: 0px 0px 25px rgb(78, 255, 58), 0px 0px 20px rgba(0, 0, 0, 0.199); color: rgb(78, 255, 58);font-size: 200px; font-family: Arial, Helvetica, sans-serif;     animation: bounce 0.7s;
+    transition: 0.3s;">Radium</h1>  
+        <form action="https://discord.com/invite/radium-rr"><button id="play" style="border: none;"><h1>Join Discord to play </h1><img src="discord-white-icon.webp"></button></form>
+           
+    </div>
 
-#back {
-    background-color: rgba(255, 255, 255, 0.116);
-    width: 100vw;
-    height: 100vh;
-    filter:opacity(100%);
-    backdrop-filter: blur(20px);
-    position:absolute;
-    top: 0;
-    left: 0;
-}
 
-#main { 
-    display: flex;
-    flex-direction: column;
-  justify-content: center ;
-  align-items: center;
-    height: 100vh;
-    position: relative;
-    width: 100vw;
-    
-
-    
-}
-
-#play { 
-    width: 450px;
-    height: 100px;
-    border-radius: 25px;
-    filter:  drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.753)), (0px 0px 10px rgb(255, 255, 255));
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.199);
-    margin-top: -100px;
-        animation: bounce 0.3s;
-    transition: 0.3s;
-}
-
-#play h1 { 
-    font-size: 40px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-shadow: 0px 0px 10px rgb(89, 255, 70);
-    color: rgb(103, 255, 86);
-    margin: 0px 5px 0px;
-}
-
-#play img { 
-    width: 45px;
-    height: 45px;
-    margin: 15px 10px 8px;
-    filter: drop-shadow(0px 0px 5px rgb(212, 212, 212)) hue-rotate(40deg);
-}
-
-#RMLOGO {
-    width: 300px;
-    height: 300px;
-    margin-bottom: -110px;
-    filter: saturate(120%) drop-shadow(0px 0px 50px rgb(26, 255, 0)) drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.425));
-        animation: bounce 0.5s;
-    transition: 0.5s;
-}
-
-#Bottom1 {
-    background-color: rgba(0, 0, 0, 0.911);
-    width: 100vw;
-    height: 80vh;
-    backdrop-filter: blur(10px);
-    position:relative;
-    top: 900px;
-    left: 0;
-}
-
-#BPhoto {
-    width: 900px;
-    height: auto;
-    border-radius: 100px;
-    filter: drop-shadow(0px 0px 10px rgb(0, 0, 0)) drop-shadow(0px 0px 50px rgb(145, 145, 145)) ;
-    margin-top: 110px;
-    margin-left: 100px;
-    position: absolute;
-}
-
-#BottomTop2 {
-    width: 100vw;
-    height: 100vh;
-    position:absolute;
-    top: 900px;
-    left: 0;
-    
-}
-
-#Bottom2 {
-    background-color: rgba(41, 71, 32, 0.747);
-    width: 100vw;
-    height: 7vh;
-    backdrop-filter: blur(30px);
-    position:absolute;
-    top: 1630px;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-   
-
-}
-
-@keyframes bounce {
-    10% {
-        scale: 10%;
-    }
-
-    50% {
-        scale: 110%;
-    }
-
-    100% {
-        scale: 100%;
-    }
-}
+</body>
+</html>
